@@ -24,7 +24,8 @@
       type="image/x-icon"
     />
     <!-- AOS  -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
     <!-- ==== css dependencies start ==== -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ICON  -->
@@ -169,7 +170,7 @@
                       <i class="ph-fill ph-moon fs-five" id="mood_icon"></i>
                     </button>
                     <a
-                      href="contact.html"
+                      href="#secao-contato"
                       class="btn p6-color d-none d-xl-block"
                     >
                       <span class="btn-text-one">Whatsapp</span>
@@ -2997,15 +2998,24 @@ Centralização de dados em um único ambiente..
     <script src="assets/js/main.js"></script>
     <script src="assets/js/plugins/plugins.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/particles.js"></script>
     <script src="./assets/js/custom-plugin.js"></script>
-    <script>
+    
+	<!--
+	<script>
       AOS.init({
         offset: 120,
         duration: 800,
         easing: "ease-in-out",
       });
     </script>
+	-->
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init(); // Initialize AOS after the library is loaded
+    </script>
+	
   </body>
 </html>
