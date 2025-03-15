@@ -1,10 +1,10 @@
 /*============================================ 
-# Template Name: TechnoxIt
+# Template Name: Avadora
 # Version: 1.0
-# Date: 25-10-2023
+# Date: 18-03-2025
 # Author: 
 # Author URI: 
-# Description: TechnoxIt - TechnoxIt HTML Template
+# Description: Avadora - Avadora HTML Template
 ============================================*/
 /*============================================ 
 ======== Table of Css Content =========
@@ -1972,6 +1972,14 @@ span {
 
 .parallax {
   background: url("../images/counter.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background: url("../images/counter5.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
