@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="boot, Bootstrap, It Solutions , Business Services, ERP, HTML, CSS"
+    />
+    <!-- #description -->
+    <meta
+      name="description"
+      content="IT Solutions & Business Services Multipurpose Responsive Website"
+    />
+    <!-- #title -->
+    <title>Giornata Top - IT Solutions & Business Services</title>
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- ==== css dependencies start ==== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- ICON  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+	
+	
+    <header class="header-section header-menu w-100 pt-1 pt-lg-0 pb-3 pb-lg-0">
+      <div class="navbar_mainhead header-fixed w-100">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <nav
+                class="navbar navbar-expand-lg position-relative d-flex align-items-center"
+              >
+                <div>
+                  <a
+                    href="index.html"
+                    class="navbar-brand d-none d-sm-flex align-items-center gap-2"
+                  >
+                    <img
+                      src="./assets/images/logo.png"
+                      class="logo"
+                      alt="logo"
+                    />
+                  </a>
+                  <a
+                    href="index.html"
+                    class="navbar-brand d-sm-none d-flex align-items-center gap-2"
+                  >
+                    <img
+                      src="./assets/images/fav.png"
+                      class="logo"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                  <ul
+                    class="navbar-nav d-flex align-items-lg-center gap-5 gap-lg-1 gap-xl-4 gap-xxl-5 py-2 py-lg-0 ms-2 ms-xl-10 ms-xxl-20 ps-0 ps-xxl-10 align-self-center"
+                  >
+                    <li class="dropdown">
+                      <a href="index.html" class="fs-ten">Home</a>
+                    </li>
+					<li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
+                      >
+                        Serviços <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+                        <li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-servicos"
+                            >Desenvolvimento de Site</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-servicos"
+                            >Desenvolvimento de App</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item fs-ten"
+                            href="index.html #secao-servicos"
+                            >Automação Web</a
+                          >
+                        </li>
+                        
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-consultoria"
+                            >Consultoria ERP Totvs</a
+                          >
+                        </li>
+                       
+                      </ul>
+                    </li>
+                    <li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
+                      >
+                        Sobre <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+						
+                        <li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-time"
+                            >Quem Somos</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-faq"
+                            >FAQs</a
+                          >
+                        </li>
+                     
+                       
+                        <li>
+                          <a class="dropdown-item fs-ten" href="./termos/termo.html" target="_blank"
+                            >Termo de Uso</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item fs-ten" href="./termos/politica.html" target="_blank"
+                            >Política de Privacidade</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-testemunho" class="fs-ten"
+                        >Testemunhos</a
+                      >
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-contato" class="fs-ten">Contato</a>
+                    </li>
+                    
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-blog" class="fs-ten">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div
+                    class="right-area custom-pos position-relative d-flex gap-0 gap-xl-5 align-items-center"
+                  >
+                    <button
+                      id="toggle"
+                      class="dark_btn d-flex justify-content-center align-items-center fs-three p6-color mood_toggle"
+                    >
+                      <i class="ph-fill ph-moon fs-five" id="mood_icon"></i>
+                    </button>
+                    <a
+                      href="index.html #secao-contato"
+                      class="btn p6-color d-none d-xl-block"
+                    >
+                      <span class="btn-text-one">Whatsapp</span>
+                      <span class="btn-text-two">Iniciar</span>
+                    </a>
+                  </div>
+                  <button
+                    class="navbar-toggler mt-1"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    aria-label="Navbar Toggler"
+                    data-bs-target="#navbar-content"
+                    aria-expanded="true"
+                    id="nav-icon3"
+                  >
+                    <span></span><span></span><span></span><span></span>
+                  </button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+	<!-- header-section end -->
+	
+    <!-- banner section start -->
+    <div class="banner">
+      <div
+        class="banner_bg_color opacity-75 d-flex align-items-center justify-content-center h-100"
+      >
+        <div class="process_heading w-100 text-center">
+          <h4 class="fs-two p3-color fw-semibold mb-2 text-center">
+            Detalhes do Blog
+          </h4>
+          <span class="p6-color fs-ten d-block text-center"
+            >Bem-vindo ao nosso blog! Mergulhe em dicas de especialistas em tecnologia, insights do setor</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="brandcumb bg1-color">
+      <div class="container">
+        <div class="d-flex align-items-center brandcumb">
+          <span class="fs-ten p6-color"
+            >Home > <span class="p3-color">Detalhes do Blog</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner section end -->
+
+    <!--Blog Details Section star -->
+    <section class="pt-120 pb-120 blog_details_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div>
+              <div>
+                <img src="./assets/images/blog1.1.png" alt="..." class="w-full" />
+              </div>
+              <h4 class="p4-color fs-three fw-semibold mt-4 mt-md-8 mb-2">
+                O que Elon Musk promete com o Grok 3?
+              </h4>
+              <span class="p4-color fs-eleven">Pedro Riso - Maio 8,2025</span>
+<p class="p4-color mb-3 mb-md-6 mt-4 mt-md-8">
+                Elon Musk continua a expandir sua presença no campo da inteligência artificial com o lançamento do Grok 3, a mais recente versão de seu chatbot desenvolvido pela xAI. Descrito por Musk como "assustadoramente inteligente", o Grok 3 utiliza dez vezes mais poder computacional que seu antecessor, posicionando-se como um concorrente direto de modelos como o GPT-4 da OpenAI e o Gemini do Google.
+</p>
+
+<p class="p4-color mb-3 mb-md-6">
+				
+Disponível inicialmente para assinantes do plano Premium+ do X (anteriormente conhecido como Twitter) por US$ 40 mensais, o Grok 3 também pode ser acessado por meio de aplicativos independentes para iOS e Android, embora a versão para Android esteja limitada a alguns países no momento. 
+</p>
+
+<p class="p4-color mb-3 mb-md-6">
+Uma das funcionalidades notáveis do Grok 3 é sua integração com a plataforma X, permitindo que usuários mencionem a IA em novas mensagens ou interações para fazer perguntas ou solicitar explicações.
+</p>
+              
+<p class="p4-color mb-3 mb-md-6">
+No entanto, o lançamento do Grok 3 não foi isento de controvérsias. Recentemente, o chatbot gerou respostas polêmicas ao afirmar que figuras públicas, incluindo Donald Trump e o próprio Elon Musk, mereciam a pena de morte. Essas declarações foram rapidamente corrigidas pela equipe da xAI, que ajustou o modelo para evitar tais respostas no futuro.
+</p>
+
+              <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Ideologias "Woke"
+              </h4>
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Além disso, o Grok 3 tem sido treinado para oferecer uma alternativa às chamadas ideologias "woke" presentes em outros modelos de IA. Documentos internos revelam que a xAI instruiu seus anotadores a identificar e eliminar vieses, evitando moralizações e promovendo a liberdade de expressão, diferenciando-se de outras IAs que adotam narrativas de justiça social de forma acrítica.
+              </p>
+              <p class="p4-color mb-3 mb-md-6">
+Para suportar o desenvolvimento e a operação do Grok 3, a xAI estabeleceu um novo mega data center em Atlanta, em parceria com a plataforma X. Este centro abriga aproximadamente 12.448 GPUs Nvidia, principalmente modelos H100 de alta performance, representando um investimento de US$ 700 milhões. Essa infraestrutura robusta visa posicionar a xAI como uma concorrente séria de empresas líderes em IA, como a OpenAI e o Google.
+              </p>
+              <p class="p4-color mb-3 mb-md-6">
+Em suma, o Grok 3 representa um avanço significativo nos esforços de Elon Musk no campo da inteligência artificial, oferecendo funcionalidades robustas e integradas, mas também enfrentando desafios relacionados ao controle de conteúdo e alinhamento ético.
+              </p>
+              <p class="p4-color mb-3 mb-md-6">
+Para uma visão mais detalhada sobre o Grok 3, confira o vídeo abaixo:
+<br 
+
+/>
+
+<iframe width="736" height="414" src="https://www.youtube.com/embed/DJZnJUe5pfY" title="O GROK 3 é SURREAL! Conheça a nova Inteligência Artificial do Elon Musk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </p>
+              
+			  <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Grok 3: O Futuro da Inteligência Artificial ou Apenas Mais um Concorrente?
+              </h4>
+			  
+			  <p class="p4-color mb-3 mb-md-6">
+                O Grok 3 chega ao mercado em um momento de intensa disputa entre as maiores empresas de tecnologia do mundo. Com a OpenAI aprimorando seu GPT-4, o Google investindo fortemente no Gemini e outras empresas como Anthropic e Meta desenvolvendo seus próprios modelos de IA, a pergunta que muitos fazem é: o Grok 3 realmente representa um salto inovador ou é apenas mais um concorrente tentando se destacar?
+              </p>
+			  
+			   <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Diferenciais do Grok 3
+              </h4>
+			  
+              <p class="p4-color mb-3 mb-md-6">
+                Segundo a xAI, um dos principais diferenciais do Grok 3 é sua abordagem menos restritiva em relação a respostas. Elon Musk tem criticado frequentemente outras inteligências artificiais por possuírem um viés "woke" e serem excessivamente moralizantes. O Grok 3, portanto, busca oferecer uma alternativa mais "livre", onde os usuários têm acesso a respostas sem filtros ideológicos excessivos.
+              </p>
+              <p class="p4-color mb-3 mb-md-6">
+                Além disso, a integração direta com a plataforma X permite que o chatbot tenha acesso a informações em tempo real, tornando suas respostas mais atualizadas e contextuais. Isso dá ao Grok uma vantagem competitiva sobre modelos que possuem um "corte" nos dados de treinamento, limitando suas respostas a eventos passados.
+              </p>
+			  
+			  <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Desafios e Controvérsias
+              </h4>
+			  
+			  
+			  
+              <p class="p4-color mb-3 mb-md-6 mt-4 mt-md-8">
+                Apesar dos avanços, o Grok 3 não está imune a polêmicas. As recentes declarações problemáticas emitidas pelo chatbot, incluindo sugestões radicais sobre figuras políticas, levantaram questões sobre o alinhamento e controle de conteúdo na IA da xAI. Isso coloca em dúvida até que ponto o modelo é verdadeiramente "livre" ou apenas desregulado em comparação aos concorrentes.
+              </p>
+			  
+			  <p class="p4-color mb-3 mb-md-6 mt-4 mt-md-8">
+                Outro desafio para o Grok 3 é a infraestrutura necessária para manter um modelo de IA de ponta. O investimento de US$ 700 milhões no data center de Atlanta é significativo, mas ainda pequeno frente à escala das operações de outras big techs, como Microsoft e Google. Isso pode afetar a capacidade da xAI de competir no longo prazo.
+              </p>
+			  
+			  <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+               Conclusão
+              </h4>
+			 
+			  
+			   <p class="p4-color mb-3 mb-md-6 mt-4 mt-md-8">
+                O Grok 3 surge como um candidato sério na corrida da inteligência artificial, trazendo diferenciais interessantes e desafiando o status quo das IAs dominantes. No entanto, sua abordagem mais "livre" levanta questões sobre segurança e controle de informação, e sua infraestrutura pode ser um desafio para competir de igual para igual com gigantes do setor.
+
+Se o Grok 3 se tornará uma revolução ou apenas mais um player nesse mercado competitivo, só o tempo dirá.
+              </p>
+			  
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="blog_sticky">
+              <h3 class="p4-color mb-3 mb-md-6">Dicas importantes</h3> 
+              <p class="p4-color mb-3">
+                ✅ Antes de mergulhar em IA avançada, familiarize-se com conceitos como machine learning, deep learning, redes neurais e processamento de linguagem natural (NLP). Plataformas como <a href="https://www.coursera.org/" class="p4-color fw-semibold pb-4" > Coursera </a>, <a href="https://www.udacity.com/" class="p4-color fw-semibold pb-4" > Udacity </a> e <a href="https://www.khanacademy.org/" class="p4-color fw-semibold pb-4" > Khan Academy </a> oferecem ótimos cursos introdutórios.
+              </p>
+              <p class="p4-color mb-3">
+                ✅ Experimente ferramentas como ChatGPT, Google Bard, Midjourney, RunwayML e AutoGPT para entender como a IA pode ser aplicada em diversas áreas, desde automação até criação de conteúdo e design.
+              </p>
+
+              <p class="p4-color mb-3">
+                ✅ Utilize assistentes baseados em IA para otimizar tarefas do dia a dia. Ferramentas como Notion AI e Grammarly ajudam na escrita, enquanto Zapier e Chatbots automatizam processos repetitivos.
+              </p>
+              <div class="my-3 my-md-6 rounded p-3 p-md-6">
+                <h3 class="p4-color mb-3 mb-md-6">Categorias</h3>
+                <div class="row">
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Apps
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Sites
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Marketing Digital
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Otimização de SEO
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Automação Web
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Equipe Dedicada
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Details Section end -->
+
+    <!-- Footer section start -->
+    <section class="bg11-color footer_section">
+      <div class="pt-120 pb-120">
+        <div class="container">
+          <div class="row g-6">
+            <div class="col-12 col-xl-4">
+              <div class="mb-3 mb-lg-6">
+                <img src="./assets/images/logo.png" alt="logo" />
+              </div>
+              <p class="p6-color fs-ten">
+                Temos mais de 15 anos de experiência. Ajudando você a superar desafios tecnológicos. Junte-se à próspera consultoria de soluções Avadora.
+              </p>
+              <div class="my-3 my-sm-5 my-md-10">
+                <button class="btn2">
+                  <span class="btn-text-one">Falar de Negócio</span>
+                  <span class="btn-text-two">Agora</span>
+                </button>
+              </div>
+              <div>
+                <h4 class="fs-five p6-color mb-2 mb-md-4">Nossas Redes Sociais</h4>
+                <div class="d-flex flex-wrap gap-3">
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-facebook-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-x-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-linkedin-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-instagram-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-youtube-logo fs-six"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-2">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Serviços</h4>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Apps</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Sites</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Marketing Digital</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Otimização de SEO</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Automação Web</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Equipe Dedicada</span
+                >
+              </a>
+              <a
+                href="index.html #secao-consultoria"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Consultoria ERP Protheus</span
+                >
+              </a>
+              
+            </div>
+            <div class="col-sm-6 col-xl-2">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Informações</h4>
+              <a
+                href="index.html#secao-time"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Time</span>
+              </a>
+              
+              <a
+                href="index.html#secao-consultoria"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Consultoria ERP Totvs</span>
+              </a>
+              <a
+                href="index.html#secao-portfolio"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Portfolio</span
+                >
+              </a>
+              <a
+                href="index.html#secao-faq"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">FAQs</span>
+              </a>
+              <a
+                href="index.html#secao-blog"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Blogs</span>
+              </a>
+              <a
+                href="javascriopt:void(0)"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Novidades</span
+                >
+              </a>
+            </div>
+            <div class="col-12 col-xl-4">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Contato</h4>
+              <div
+                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+              >
+                <i class="ph-fill ph-map-pin fs-six p6-color"></i>
+                <span>Av: Nações Unidas, 98 - T1</span>
+              </div>
+              <div
+                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+              >
+                <i class="ph-fill ph-phone-incoming fs-six p6-color"></i>
+                <a href="tel:+1-847-555-5555">+55 (11) 9 4243 7977</a>
+              </div>
+              <div class="d-flex gap-2 gap-md-4 align-items-center">
+                <i class="ph-fill ph-envelope fs-six p6-color"></i>
+                <a href="mailto:someone@example.com">contato@avadora.com.br</a>
+              </div>
+
+              <div class="mt-5 mt-md-9 mt-md-18">
+                <h4 class="fs-four fw-semibold p6-color mb-2 mb-md-4">
+                  Newsletter
+                </h4>
+                <p class="fs-ten p6-color">
+                  Não deixe de assinar nossos novos feeds, preencha gentilmente o formulário abaixo.
+                </p>
+                <div
+                  class="d-flex gap-2 align-items-center border-bottom mt-5 mt-md-10 pb-3 pb-md-6"
+                >
+                  <input
+                    class="p6-color fs-ten px-2"
+                    placeholder="Seu e-mail"
+                  />
+                  <i class="ph-fill ph-paper-plane-tilt fs-three"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border cus-border border-four my-0" />
+      <div
+        class="container d-flex sm:gap-3 flex-wrap justify-content-md-between justify-content-center py-3 py-md-6"
+      >
+        <span class="p6-color sm:fs-ten"
+          >Avadora © 2025 - Designed by @Estv</span
+        >
+        <div class="d-flex gap-4">
+          <a href="./termos/termo.html" target="_blank" class="p6-color sm:fs-ten">Termos & Condições</a>
+          <span class="p6-color sm:fs-ten">|</span>
+          <a href="./termos/politica.html" target="_blank" class="p6-color sm:fs-ten">Política de Privacidade</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section end -->
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/custom-plugin.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 700,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
