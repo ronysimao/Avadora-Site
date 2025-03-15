@@ -188,38 +188,10 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 
- 
-  
-  // verificando se existem
-  if (toggle) {
-    toggle.addEventListener("click", () => {
-        body.classList.toggle("dark");
-
-        if (!body.classList.contains("dark")) {
-            return localStorage.setItem("mode", "light");
-        }
-        localStorage.setItem("mode", "dark");
-    });
-
-    toggle.addEventListener("click", () => toggle.classList.toggle("active"));
-}
-
-if(icon){
-    if (document.body.classList.contains("dark")) {
-        icon.classList.add("ph-sun");
-        icon.classList.remove("ph-moon");
-    } else {
-        icon.classList.remove("ph-sun");
-        icon.classList.add("ph-moon");
-    }
-}
-
-//Finalizando a verificacao
-
- // dark mood
+  // dark mood
   const body = document.querySelector("body");
   const toggle = document.querySelector(".mood_toggle");
-
+  
 
   let getMood = localStorage.getItem("mode");
   if (getMood && getMood === "dark") {
