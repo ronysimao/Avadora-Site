@@ -653,6 +653,11 @@ select {
 .p6-color {
   color: rgba(var(--p6), 1);
 }
+.p6-color-shadow {
+	
+	color: rgba(var(--p6), 1);
+	 text-shadow: black 0.1em 0.1em 0.2em
+}
 
 .p7-color {
   color: rgba(var(--p7), 1);
