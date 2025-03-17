@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-Br" dir="ltr">
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="boot, Bootstrap, It Solutions , Business Services, ERP, HTML, CSS"
+    />
+    <!-- #description -->
+    <meta
+      name="description"
+      content="IT Solutions & Business Services Multipurpose Responsive Website"
+    />
+    <!-- #title -->
+    <title>Giornata Top - IT Solutions & Business Services</title>
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav.png"
+      type="image/x-icon"
+    />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- ==== css dependencies start ==== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- ICON  -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+	
+	
+    <header class="header-section header-menu w-100 pt-1 pt-lg-0 pb-3 pb-lg-0">
+      <div class="navbar_mainhead header-fixed w-100">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <nav
+                class="navbar navbar-expand-lg position-relative d-flex align-items-center"
+              >
+                <div>
+                  <a
+                    href="index.html"
+                    class="navbar-brand d-none d-sm-flex align-items-center gap-2"
+                  >
+                    <img
+                      src="./assets/images/logo.png"
+                      class="logo"
+                      alt="logo"
+                    />
+                  </a>
+                  <a
+                    href="index.html"
+                    class="navbar-brand d-sm-none d-flex align-items-center gap-2"
+                  >
+                    <img
+                      src="./assets/images/fav.png"
+                      class="logo"
+                      alt="logo"
+                    />
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                  <ul
+                    class="navbar-nav d-flex align-items-lg-center gap-5 gap-lg-1 gap-xl-4 gap-xxl-5 py-2 py-lg-0 ms-2 ms-xl-10 ms-xxl-20 ps-0 ps-xxl-10 align-self-center"
+                  >
+                    <li class="dropdown">
+                      <a href="index.html" class="fs-ten">Home</a>
+                    </li>
+					<li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
+                      >
+                        Serviços <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+                        <li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-servicos"
+                            >Desenvolvimento de Site</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-servicos"
+                            >Desenvolvimento de App</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item fs-ten"
+                            href="index.html #secao-servicos"
+                            >Automação Web</a
+                          >
+                        </li>
+                        
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-consultoria"
+                            >Consultoria ERP Totvs</a
+                          >
+                        </li>
+                       
+                      </ul>
+                    </li>
+                    <li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
+                      >
+                        Sobre <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+						
+                        <li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-time"
+                            >Quem Somos</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="index.html #secao-faq"
+                            >FAQs</a
+                          >
+                        </li>
+                     
+                       
+                        <li>
+                          <a class="dropdown-item fs-ten" href="./termos/termo.html" target="_blank"
+                            >Termo de Uso</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item fs-ten" href="./termos/politica.html" target="_blank"
+                            >Política de Privacidade</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-testemunho" class="fs-ten"
+                        >Testemunhos</a
+                      >
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-contato" class="fs-ten">Contato</a>
+                    </li>
+                    
+                    <li class="dropdown show-dropdown">
+                      <a href="index.html #secao-blog" class="fs-ten">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div
+                    class="right-area custom-pos position-relative d-flex gap-0 gap-xl-5 align-items-center"
+                  >
+                    <button
+                      id="toggle"
+                      class="dark_btn d-flex justify-content-center align-items-center fs-three p6-color mood_toggle"
+                    >
+                      <i class="ph-fill ph-moon fs-five" id="mood_icon"></i>
+                    </button>
+                    <a
+                      href="index.html #secao-contato"
+                      class="btn p6-color d-none d-xl-block"
+                    >
+                      <span class="btn-text-one">Whatsapp</span>
+                      <span class="btn-text-two">Iniciar</span>
+                    </a>
+                  </div>
+                  <button
+                    class="navbar-toggler mt-1"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    aria-label="Navbar Toggler"
+                    data-bs-target="#navbar-content"
+                    aria-expanded="true"
+                    id="nav-icon3"
+                  >
+                    <span></span><span></span><span></span><span></span>
+                  </button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+	<!-- header-section end -->
+	
+    <!-- banner section start -->
+    <div class="banner">
+      <div
+        class="banner_bg_color opacity-75 d-flex align-items-center justify-content-center h-100"
+      >
+        <div class="process_heading w-100 text-center">
+          <h4 class="fs-two p3-color fw-semibold mb-2 text-center">
+            Detalhes do Blog
+          </h4>
+          <span class="p6-color fs-ten d-block text-center"
+            >Bem-vindo ao nosso blog! Mergulhe em dicas de especialistas em tecnologia, insights do setor</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="brandcumb bg1-color">
+      <div class="container">
+        <div class="d-flex align-items-center brandcumb">
+          <span class="fs-ten p6-color"
+            >Home > <span class="p3-color">Detalhes do Blog</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner section end -->
+
+    <!--Blog Details Section star -->
+    <section class="pt-120 pb-120 blog_details_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div>
+              <div>
+                <img src="./assets/images/blog3.1.png" alt="..." class="w-full" />
+              </div>
+              <h4 class="p4-color fs-three fw-semibold mt-4 mt-md-8 mb-2">
+                TOTVS Protheus 12.1.2410: principais novidades
+              </h4>
+              <span class="p4-color fs-eleven">Pedro Silva - Março 10,2025</span>
+
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Principais novidades da release 12.1.2410 do Protheus
+              </h4>
+			  
+			  <iframe width="736" height="414" src="https://www.youtube.com/embed/QUeQMxA_AnI" title="O que esperar da release 12.1.2410 da Linha Protheus? | Trend in TOTVS - Ep. 01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			  
+			  <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Relatórios
+              </h4>
+
+<p class="p4-color mb-3 mb-md-6 mt-4 mt-md-8">
+                
+A nova release soluciona uma das maiores dores dos usuários: geração de relatórios e extração de informações.<br> 
+<br>
+Agora, o Protheus conta com o Smart View, uma ferramenta inteligente e intuitiva de extração de dados e criação de tabelas dinâmicas.<br> 
+<br>
+O Smart View é uma solução 100% web, ou seja, dispensa instalação nas máquinas dos usuários. Assim, ele otimiza tempo e também reduz a necessidade de atualizações frequentes.<br>
+<br>
+Com ele, mesmo usuários sem conhecimentos técnicos avançados podem gerar relatórios complexos.<br>
+<br>
+Segundo a TOTVS, a release 12.1.2410 traz um investimento amplo no Smart View, estendendo-o a praticamente todos os módulos de backoffice do Protheus.<br>
+
+</p>
+
+
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+                Interface e usabilidade 
+              </h4>
+
+
+<p class="p4-color mb-3 mb-md-6">
+	Outra área que recebeu melhorias substanciais foi a interface e a usabilidade do sistema. 
+
+A TOTVS tem investido constantemente em melhorar a experiência dos usuários, tornando o Protheus mais intuitivo e fácil de usar. Isso inclui as seguintes novidades:
+<br>
+
+</p>
+    
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+               Rotinas em segundo plano
+              </h4>
+	
+<p class="p4-color mb-3 mb-md-6">
+Será possível executar rotinas em 2º plano e avisar os usuários quando elas forem finalizadas. Isso resulta em uma melhor experiência do usuário e redução do TCO.
+</p>
+			  
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Otimizador de tela
+              </h4>			  
+			  
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Ficou ainda mais simples reduzir a quantidade de informações na tela.<br>
+Agora o Protheus conta com um otimizador que analisa como o usuário tem utilizado o sistema e sugere o que remover da tela de acordo com o histórico de uso.<br>
+
+Assim, os usuários podem aproveitar o painel de maneira mais relevante e personalizada.
+	
+              </p>
+			  
+			  <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Interface
+              </h4>	
+			  
+			  
+              <p class="p4-color mb-3 mb-md-6">
+A nova interface adota um layout mais clean, com uma paleta de cores que facilita a leitura e a navegação pelos diferentes módulos do sistema.
+
+Além disso, os usuários agora têm a opção de utilizar o ERP com tema escuro (dark), além dos já existentes vermelho e azul.
+              </p>
+			  
+<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+               Broker
+              </h4>				  
+			  
+              <p class="p4-color mb-3 mb-md-6">
+Com a nova release, o Broker, responsável por distribuir a carga das conexões do Protheus para os servidores, passa a ser obrigatório.
+
+A atualização trouxe grandes melhorias para o Broker, que ficou mais inteligente e passou a distribuir as requisições de acordo com a carga do servidor. A novidade está disponível para web service e interface.
+
+              </p>
+              
+			 <h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Descontinuidade do Smart Client Desktop
+              </h4>			
+			   
+			    <p class="p4-color mb-3 mb-md-6">
+O Smart Client Desktop será descontinuado em 30 de junho de 2026, o que significa que, a partir desta data, a TOTVS deixará de oferecer suporte e manutenção para a tecnologia.<br>
+<br>
+Com isso, os usuários devem migrar para o TOTVS Smart Client HTML (WebApp).<br>
+<br>
+Ao fazerem a atualização para o release 12.1.2410, os usuários contarão automaticamente com o WebApp, sem nenhum custo extra.
+<br>
+Os benefícios de utilizar o WebApp são:<br>
+<br>
+🔵 &nbsp;&nbsp;Conexão segura (https);<br>
+
+🔵 &nbsp;&nbsp;Não exige instalação na máquina local;<br>
+
+🔵 &nbsp;&nbsp;Sem necessidade de plugins, Java ou ActiveX;<br>
+
+🔵 &nbsp;&nbsp;Por ser multiplataforma, pode ser executado em diversos dispositivos.<br>
+
+              </p>
+			   
+	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Navegação mais fluida 
+              </h4>		   
+			                <p class="p4-color mb-3 mb-md-6">
+Com melhorias na organização dos menus e submenus, os usuários conseguem acessar as funcionalidades que precisam de forma mais rápida e eficiente, reduzindo o tempo gasto em atividades rotineiras.
+
+              </p>
+			  
+			  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Protheus Insights
+              </h4>	
+			  
+				                <p class="p4-color mb-3 mb-md-6">
+Ele foi lançado no release 12.1.2310 com os seguintes Insights:<br>
+<br>
+🔵 &nbsp;&nbsp;Compras: a IA ajuda o departamento a definir quais produtos comprar e em qual quantidade devem ser comprados, de acordo com o histórico de dados do ERP;<br>
+🔵 &nbsp;&nbsp;Estoque: avalia possíveis quebras ou excessos com base na experiência passada e dados de compras;<br>
+🔵 &nbsp;&nbsp;Conciliação contábil: automatiza a conciliação, reduzindo erros humanos e otimizando o tempo da equipe; <br>
+🔵 &nbsp;&nbsp;Fluxo de caixa: a IA faz análises do fluxo de caixa, informa se haverá falta ou sobra de recursos financeiros e sugere soluções.<br>
+<br>
+Agora, com a release 12.1.2410, foi lançado um novo Insight, que contempla o módulo de Faturamento. <br>
+<br>
+Por meio de análises do histórico de relacionamento e giro de estoque, a IA identificará o potencial dos clientes de comprar determinado produto. <br>
+<br>
+Assim, os usuários do Protheus passam a receber sugestões inteligentes e embasadas para pedidos de compra e orçamentos, incluindo que tipo de produto ofertar para determinados clientes.
+
+              </p>		  
+				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Desempenho e estabilidade
+              </h4>			  
+				                <p class="p4-color mb-3 mb-md-6">
+Uma das grandes preocupações dos usuários de ERPs é o desempenho do sistema, especialmente em ambientes que demandam alta capacidade de processamento, como grandes empresas e indústrias. <br>
+<br>
+A nova release foca fortemente em aprimorar a performance do Protheus, incluindo:<br>
+<br>
+🔵 &nbsp;&nbsp;Otimização no tempo de resposta do sistema: com ajustes nas consultas e rotinas, o sistema agora responde de forma mais ágil, mesmo em operações complexas;<br>
+🔵 &nbsp;&nbsp;Processamento em lotes mais rápido: melhorias no tratamento de grandes volumes de dados garantem maior velocidade nas operações;<br>
+🔵 &nbsp;&nbsp;Maior estabilidade em ambientes de alta carga: a versão 12.1.2410 foi aprimorada para lidar melhor com picos de uso, minimizando o risco de travamentos e erros.<br>
+
+              </p>		  
+			  
+			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Segurança
+              </h4>	
+			  
+							                <p class="p4-color mb-3 mb-md-6">
+Com o crescente número de ataques cibernéticos, a segurança da informação tem se tornado um dos temas mais sensíveis para qualquer software de gestão empresarial. <br>
+<br>
+Ciente desse cenário, a TOTVS também incluiu diversas atualizações voltadas para o fortalecimento da segurança do Protheus.<br>
+<br>
+🔵 &nbsp;&nbsp;Autenticação multifator (MFA): agora é possível ativar a autenticação em dois fatores para usuários, adicionando uma camada extra de proteção contra acessos indevidos;
+<br>
+🔵 &nbsp;&nbsp;Criptografia aprimorada de dados: tanto os dados em trânsito quanto os dados armazenados são agora protegidos por métodos de criptografia mais robustos, garantindo conformidade com as normas de segurança mais exigentes;
+<br>
+🔵 &nbsp;&nbsp;Gestão de acessos refinada: a nova release permite uma configuração mais detalhada de permissões e perfis de usuários, o que facilita o controle sobre quem pode acessar e modificar determinadas informações.
+
+              </p>	  
+			  
+			  
+			  			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Módulos do backoffice
+              </h4>	
+			  
+			                <p class="p4-color mb-3 mb-md-6">
+A nova release também inclui uma ampla revisão dos processos empresariais e, com isso, melhorias na interface dos módulos de backoffice. Confira os destaques:
+
+              </p>
+			  
+			  			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Compras
+              </h4>	
+			  <p class="p4-color mb-3 mb-md-6">
+O módulo de compras passou por uma ampla modernização em releases anteriores, incluindo o processo de cotação. 
+<br>
+<br>
+Agora, as novidades incluem melhorias na experiência do pedido de compra, desde registro de solicitações, cotações, escolha do vencedor, alçadas de aprovação e geração do pedido – todo o processo foi revisitado e atualizado.
+
+              </p>
+			  
+			  
+			  			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Financeiro
+              </h4>	
+			  <p class="p4-color mb-3 mb-md-6">
+O módulo financeiro do sistema também recebeu uma atenção especial nesta release, incluindo:<br> 
+<br>
+🔵 &nbsp;&nbsp;Melhorias na conciliação bancária: agora, o sistema oferece novas funcionalidades que automatizam ainda mais o processo de conciliação bancária, reduzindo o tempo necessário para conferência de extratos e diminuindo o risco de erros;<br>
+🔵 &nbsp;&nbsp;Comunicação bancária direta via API, simplificando o processo e aumentando a segurança;<br>
+🔵 &nbsp;&nbsp;Gestão de fluxo de caixa: aperfeiçoado, agora permite uma visão mais clara e detalhada das entradas e saídas de recursos, com relatórios que facilitam a tomada de decisões;<br>
+Integração com novos meios de pagamento: o Protheus agora suporta novas formas de pagamento, alinhando-se às tendências do mercado, como carteiras digitais e PIX, trazendo mais flexibilidade para as operações financeiras.
+
+              </p>
+			  
+			  			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Contábil
+              </h4>	
+			  		  <p class="p4-color mb-3 mb-md-6">
+O processo de fechamento contábil também foi atualizado e otimizado com a nova versão do ERP. <br>
+<br>
+Agora, toda a jornada de fechamento contábil é conduzida por um assistente inteligente. <br>
+<br>
+Além disso, o contador passa a ter acesso a um cockpit no qual pode acompanhar o que falta para fechar o mês.<br>
+
+              </p>
+			  
+			  			  			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Redução do TCO
+              </h4>	
+			  
+			  
+			  			  		  <p class="p4-color mb-3 mb-md-6">
+Segundo a própria TOTVS, a versão 12.1.2410 do Protheus contribui para a redução do TCO (Custo Total de Propriedade) ao melhorar a eficiência operacional e reduzir custos de manutenção. <br>
+<br>
+A empresa está investindo em facilitar o processo de migração, reduzindo o tempo de atualização. <br>
+<br>
+Além disso, os clientes que estiverem em qualquer release da versão 12 do Protheus podem atualizar diretamente para o último release.<br>
+<br>
+Com menos necessidade de suporte técnico constante e uma operação mais fluida, as empresas conseguem economizar tanto em recursos de TI quanto no tempo necessário para a gestão do ERP.<br>
+
+              </p>
+			  
+			  
+			  			  			  			  				  	<h4 class="p4-color fs-four fw-semibold my-4 my-md-8 mb-2">
+              Conclusão
+              </h4>	
+			  
+			  		  			  		  <p class="p4-color mb-3 mb-md-6">
+Em resumo, a versão 12.1.2410 do TOTVS Protheus oferece um ERP ainda mais robusto, seguro e adaptado às necessidades do mercado. <br>
+<br>
+Manter o Protheus atualizado é essencial para garantir que sua empresa esteja sempre alinhada com as melhores práticas de mercado e as mais recentes exigências fiscais e de segurança.<br>
+<br>
+Para empresas que já utilizam o sistema, essa atualização é uma oportunidade para otimizar ainda mais seus processos e melhorar a segurança e a eficiência operacional.<br>
+<br>
+A Moove Consultoria oferece suporte especializado para maximizar o potencial do seu Protheus, incluindo serviços como Service Desk, AMS, diagnóstico de performance e muito mais.<br>
+<br>
+Entre em contato com o nosso time e descubra como podemos ajudar a sua empresa a obter os melhores resultados no uso do seu ERP.<br>
+
+
+              </p>
+			  
+			  
+			  
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="blog_sticky">
+              <h3 class="p4-color mb-3 mb-md-6">Dicas importantes</h3> 
+              <p class="p4-color mb-3">
+                ✅ Aproveite a experiência 100% web: O Protheus 12.1.2410 oferece uma interface totalmente web, eliminando a necessidade de atualizações máquina a máquina e permitindo acesso remoto mais fácil e seguro. 
+
+              </p>
+              <p class="p4-color mb-3">
+                ✅ Explore o novo mecanismo Smart View: Esta funcionalidade permite a extração inteligente de dados e a construção de tabelas dinâmicas, facilitou a análise de informações e a geração de relatórios personalizados. 
+              </p>
+
+              <p class="p4-color mb-3">
+                ✅ Utilize o otimizador de tela: Essa ferramenta analisa o uso do sistema e sugere ajustes na interface, permitindo personalizações que aumentam a eficiência e a produtividade dos usuários.
+              </p>
+              <div class="my-3 my-md-6 rounded p-3 p-md-6">
+                <h3 class="p4-color mb-3 mb-md-6">Categorias</h3>
+                <div class="row">
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Apps
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Sites
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Marketing Digital
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Otimização de SEO
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Automação Web
+                  </a>
+                  <a href="index.html #secao-servicos" class="p4-color fw-semibold pb-4">
+                    Equipe Dedicada
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Details Section end -->
+
+    <!-- Footer section start -->
+    <section class="bg11-color footer_section">
+      <div class="pt-120 pb-120">
+        <div class="container">
+          <div class="row g-6">
+            <div class="col-12 col-xl-4">
+              <div class="mb-3 mb-lg-6">
+                <img src="./assets/images/logo.png" alt="logo" />
+              </div>
+              <p class="p6-color fs-ten">
+                Temos mais de 15 anos de experiência. Ajudando você a superar desafios tecnológicos. Junte-se à próspera consultoria de soluções Avadora.
+              </p>
+              <div class="my-3 my-sm-5 my-md-10">
+                <button class="btn2">
+                  <span class="btn-text-one">Falar de Negócio</span>
+                  <span class="btn-text-two">Agora</span>
+                </button>
+              </div>
+              <div>
+                <h4 class="fs-five p6-color mb-2 mb-md-4">Nossas Redes Sociais</h4>
+                <div class="d-flex flex-wrap gap-3">
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-facebook-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-x-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-linkedin-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-instagram-logo fs-six"></i>
+                  </a>
+                  <a
+                    href="javascriopt:void(0)"
+                    class="footer_icon d-flex justify-content-center align-items-center"
+                  >
+                    <i class="ph ph-youtube-logo fs-six"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-2">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Serviços</h4>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Apps</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Sites</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Marketing Digital</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Otimização de SEO</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Automação Web</span
+                >
+              </a>
+              <a
+                href="index.html #secao-servicos"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Equipe Dedicada</span
+                >
+              </a>
+              <a
+                href="index.html #secao-consultoria"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Consultoria ERP Protheus</span
+                >
+              </a>
+              
+            </div>
+            <div class="col-sm-6 col-xl-2">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Informações</h4>
+              <a
+                href="index.html#secao-time"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Time</span>
+              </a>
+              
+              <a
+                href="index.html#secao-consultoria"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Consultoria ERP Totvs</span>
+              </a>
+              <a
+                href="index.html#secao-portfolio"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Portfolio</span
+                >
+              </a>
+              <a
+                href="index.html#secao-faq"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">FAQs</span>
+              </a>
+              <a
+                href="index.html#secao-blog"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag">Blogs</span>
+              </a>
+              <a
+                href="javascriopt:void(0)"
+                class="d-flex align-items-center flex-shrink-0 gap-2 mb-2 mb-md-3"
+              >
+                <div>
+                  <img src="./assets/images/point.png" alt="point" />
+                </div>
+                <span class="fs-ten p6-color fw-medium footer_tag"
+                  >Novidades</span
+                >
+              </a>
+            </div>
+            <div class="col-12 col-xl-4">
+              <h4 class="fs-five p6-color mb-3 mb-md-5">Contato</h4>
+              <div
+                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+              >
+                <i class="ph-fill ph-map-pin fs-six p6-color"></i>
+                <span>Av: Nações Unidas, 98 - T1</span>
+              </div>
+              <div
+                class="d-flex gap-2 gap-md-4 align-items-center mb-3 mb-md-5"
+              >
+                <i class="ph-fill ph-phone-incoming fs-six p6-color"></i>
+                <a href="tel:+1-847-555-5555">+55 (11) 9 4243 7977</a>
+              </div>
+              <div class="d-flex gap-2 gap-md-4 align-items-center">
+                <i class="ph-fill ph-envelope fs-six p6-color"></i>
+                <a href="mailto:someone@example.com">contato@avadora.com.br</a>
+              </div>
+
+              <div class="mt-5 mt-md-9 mt-md-18">
+                <h4 class="fs-four fw-semibold p6-color mb-2 mb-md-4">
+                  Newsletter
+                </h4>
+                <p class="fs-ten p6-color">
+                  Não deixe de assinar nossos novos feeds, preencha gentilmente o formulário abaixo.
+                </p>
+                <div
+                  class="d-flex gap-2 align-items-center border-bottom mt-5 mt-md-10 pb-3 pb-md-6"
+                >
+                  <input
+                    class="p6-color fs-ten px-2"
+                    placeholder="Seu e-mail"
+                  />
+                  <i class="ph-fill ph-paper-plane-tilt fs-three"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border cus-border border-four my-0" />
+      <div
+        class="container d-flex sm:gap-3 flex-wrap justify-content-md-between justify-content-center py-3 py-md-6"
+      >
+        <span class="p6-color sm:fs-ten"
+          >Avadora © 2025 - Designed by @Estv</span
+        >
+        <div class="d-flex gap-4">
+          <a href="./termos/termo.html" target="_blank" class="p6-color sm:fs-ten">Termos & Condições</a>
+          <span class="p6-color sm:fs-ten">|</span>
+          <a href="./termos/politica.html" target="_blank" class="p6-color sm:fs-ten">Política de Privacidade</a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section end -->
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/custom-plugin.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 700,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
