@@ -34,6 +34,9 @@
   <body>
     <!-- <button id="rtlBtn">rtl</button> -->
     <a href="../index.html" class="link-button">encante-se</a>
+    
+	
+	
     <!-- header-section start -->
     <header class="header-section header-menu w-100 pt-1 pt-lg-0 pb-3 pb-lg-0">
       <div class="navbar_mainhead header-fixed w-100">
@@ -72,16 +75,40 @@
                     <li class="dropdown">
                       <a href="index.html" class="fs-ten">Home</a>
                     </li>
-                    <li class="dropdown show-dropdown">
-                      <a href="services.html" class="fs-ten">Services</a>
-                    </li>
-                    <li class="dropdown show-dropdown">
-                      <a href="testimonials.html" class="fs-ten"
-                        >Testimonials</a
+					<li class="dropdown show-dropdown dropdown_btn">
+                      <button
+                        type="button"
+                        aria-label="Navbar Dropdown Button"
+                        class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
                       >
-                    </li>
-                    <li class="dropdown show-dropdown">
-                      <a href="team.html" class="fs-ten">Team</a>
+                        Serviços <i class="ph-bold ph-caret-down"></i>
+                      </button>
+                      <ul class="dropdown-menu drop_menu">
+                        <li>
+                          <a class="dropdown-item fs-ten" href="#secao-servicos"
+                            >Desenvolvimento de Site</a
+                          >
+                        </li>
+						<li>
+                          <a class="dropdown-item fs-ten" href="#secao-servicos"
+                            >Desenvolvimento de App</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item fs-ten"
+                            href="#secao-servicos"
+                            >Automação Web</a
+                          >
+                        </li>
+                        
+						<li>
+                          <a class="dropdown-item fs-ten" href="#secao-consultoria"
+                            >Consultoria ERP Totvs</a
+                          >
+                        </li>
+                       
+                      </ul>
                     </li>
                     <li class="dropdown show-dropdown dropdown_btn">
                       <button
@@ -89,55 +116,45 @@
                         aria-label="Navbar Dropdown Button"
                         class="dropdown-toggle dropdown-nav d-flex gap-1 align-items-center fs-ten"
                       >
-                        Menu <i class="ph-bold ph-caret-down"></i>
+                        Sobre <i class="ph-bold ph-caret-down"></i>
                       </button>
                       <ul class="dropdown-menu drop_menu">
+						
                         <li>
-                          <a class="dropdown-item fs-ten" href="about.html"
-                            >About</a
+                          <a class="dropdown-item fs-ten" href="#secao-time"
+                            >Quem Somos</a
                           >
                         </li>
-                        <li>
-                          <a
-                            class="dropdown-item fs-ten"
-                            href="blog_details.html"
-                            >Blog Details</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item fs-ten" href="price.html"
-                            >Pricing</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item fs-ten" href="faqs.html"
+						<li>
+                          <a class="dropdown-item fs-ten" href="#secao-faq"
                             >FAQs</a
                           >
                         </li>
+                     
+                       
                         <li>
-                          <a class="dropdown-item fs-ten" href="portfolio.html"
-                            >Portfolio</a
+                          <a class="dropdown-item fs-ten" href="./termos/termo.html" target="_blank"
+                            >Termo de Uso</a
                           >
                         </li>
                         <li>
-                          <a class="dropdown-item fs-ten" href="contact.html"
-                            >Contact</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item fs-ten" href="terms.html"
-                            >Terms Conditions</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item fs-ten" href="privacy.html"
-                            >Privacy Policy</a
+                          <a class="dropdown-item fs-ten" href="./termos/politica.html" target="_blank"
+                            >Política de Privacidade</a
                           >
                         </li>
                       </ul>
                     </li>
                     <li class="dropdown show-dropdown">
-                      <a href="blog.html" class="fs-ten">Blog</a>
+                      <a href="#secao-testemunho" class="fs-ten"
+                        >Testemunhos</a
+                      >
+                    </li>
+                    <li class="dropdown show-dropdown">
+                      <a href="#secao-contato" class="fs-ten">Contato</a>
+                    </li>
+                    
+                    <li class="dropdown show-dropdown">
+                      <a href="#secao-blog" class="fs-ten">Blog</a>
                     </li>
                   </ul>
                 </div>
@@ -152,11 +169,11 @@
                       <i class="ph-fill ph-moon fs-five" id="mood_icon"></i>
                     </button>
                     <a
-                      href="contact.html"
+                      href="https://wa.link/2oar6m" target="_blank"
                       class="btn p6-color d-none d-xl-block"
                     >
-                      <span class="btn-text-one">Get Quotes</span>
-                      <span class="btn-text-two">Get Quotes</span>
+                      <span class="btn-text-one">Whatsapp</span>
+                      <span class="btn-text-two">Iniciar</span>
                     </a>
                   </div>
                   <button
